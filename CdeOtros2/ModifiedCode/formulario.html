@@ -1,0 +1,83 @@
+<!-- 
+      
+  Lucero Soriano Rosajel, Arturo Ávila López y Marco Antonio Garcia Franco
+
+  Evaluación Lucero: Competente 4/5
+
+  Evaluación Arturo: En Desarrollo 3/5
+
+-->
+
+<!-- Hubo un acomodo de carpetas para mejor manipulación -->
+
+<!-- Se acomodo un poco el documento HTML -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles/styles.css"> <!-- Se modificaron las rutas  -->
+
+  <title>Formulario</title>
+
+</head>
+
+<body>
+
+  <h1>Bienvenidos a mi fiesta</h1>
+
+  <h2>Por favor, confirmar asistencia:</h2>
+
+  <form class="form"> <!-- Se cambió el nombre de la clase 'formulario' por 'form' porque en el archivo JavaScript se usa este nombre. -->
+
+    <label for="name"> Nombre </label> <!-- Se agregó la etiqueta 'label' -->
+    
+    <input type="text" name="name" id="name">
+
+    <br />
+
+    <label for="age"> Edad </label> <!-- Se agregó la etiqueta 'label' -->
+    
+    <input type="number" name="age" id="age">
+
+    <br />
+
+    <label for="nationality">Nacionalidad</label> <!-- Se agregó la etiqueta 'label' -->
+
+    <select name="nationality" id="nationality">
+
+      <option value="ar">Argentina</option>
+
+      <option value="mx">Mexicana</option>
+
+      <option value="per">Peruana</option>
+
+      <option value="vnzl">Venezolana</option>
+
+    </select>
+
+    <br />
+
+    <input type="submit">
+
+  </form>
+
+  <div>
+
+    <h2>Lista de invitados</h2>
+
+  </div>
+
+  <script src="./script/formulario.js"></script> <!-- Se modificaron las rutas  -->
+
+</body>
+
+</html>
